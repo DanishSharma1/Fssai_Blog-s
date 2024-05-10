@@ -1,0 +1,97 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+} 
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+article p { 
+    text-align: justify; 
+} 
+main { 
+    flex: 3; 
+} 
+article { 
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    margin-right: 10px;
+} 
+aside { 
+    flex: 1; 
+    background-color: #c9c9c9; 
+    padding: 10px; 
+    height: fit-content;
+}
+.flex{
+    display: flex;
+}
+.marginleft10px{
+    margin-left: 10px;
+}
+.btn1{
+    color: blue;
+    border-color: blue;
+    background-color: transparent;
+    padding: 6px;
+}
+.btn1:hover{
+    background-color: darkblue;
+    color: white;
+    box-shadow: white;
+    border-color: white;
+}
+.liststylenone{
+    padding-left: 20px;
+    color: blue;
+    content: justify;
+}
+.liststylenone li a{
+    text-decoration: none;
+}
+img{
+    width: 300px;
+}
+@media (min-width: 1200px){
+    .container{
+        width: 1350px !important    ; 
+    }
+}
+
+.container1{
+    @media (min-width: 1200px){
+        .container{
+            width: 1200px !important;
+        }
+    }
+}
+
+.looklikebutton{
+    padding: 5px;
+    border: 1px solid darkblue;
+    width: 20%;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.looklikebutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.fontstyling{
+    font-size: 14px;
+}
+
+.aligningimage{
+    text-align: center;
+}
+
+.imgresize{
+    height: 400px;
+}

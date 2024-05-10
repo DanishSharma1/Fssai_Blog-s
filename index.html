@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<title>Blogging Website Layout</title> 
+    <!-- <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+
+<body>   
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/Fssai Blog’s.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="img/Fssai Blog’s.jpg" alt="Chicago" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="img/Fssai Blog’s.jpg" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="container1">
+	<div class="container"> 
+		<main> 
+			<article>
+                <div class="flex">
+                <div><img src="img/image_dummy 2.JPG" alt=""></div>
+				<div class="marginleft10px">
+                <h2>Strengthening food safety systems through global collaboration</h2> 
+				<p class="post-meta"> 
+                    <b>
+					Published by Shri G. Kamala Vardhana Rao
+                    CEO, Food Safety &amp; Standards Authority of India
+                </b>
+				</p> 
+				<p> 
+					Food safety is a global issue that transcends boundaries and geographical locations. Safe food is
+                    essential for a sound health and food safety is critical to the policy makers of any nation for securing
+                    public health and the economic strength and stability of a nation. The burden of foodborne diseases
+                    to public health and to economies is a matter of concern.
+				</p>
+                <p class="looklikebutton"><a href="innner.html" target="_blank">Read More</a></p>
+            </div>
+            </div>
+			</article> 
+			<article> 
+                <div class="flex">
+                    <div>
+                        <img src="https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2024/01/blog-2.jpeg" alt="" class="img">
+                    </div>
+                    <div class="marginleft10px">
+                        <h2>Towards Swastha Bharat with healthy and hygienic food streets</h2> 
+                        <p class="post-meta"> 
+                            <b>
+                                Published by Shri G. Kamala Vardhana Rao
+                                CEO, Food Safety &amp; Standards Authority of India
+                            </b>
+                        </p> 
+                        <p> 
+                            The history and culture of street food can be traced back to centuries and almost every culture
+                            and region in the world. Carlin Martha, a professor of history and co-author of ‘Food and Eating 
+                            in Medieval Europe’, writes that as people started moving towards urban centres in medieval England, 
+                            many didn’t have access to kitchen facilities and street food was a source of affordable hot food.
+                        </p>
+                        <p class="looklikebutton"><a href="">Read More</a></p>
+                    </div>
+                </div>
+			</article> 
+
+			<article> 
+                <div class="flex">
+                    <div><img src="data:image/jpeg;base64,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" alt=""></div>
+				<div class="marginleft10px">
+                    <h2>Strengthening food safety systems through global collaboration</h2> 
+				<p class="post-meta"> 
+					<b>
+                        Published by Shri G. Kamala Vardhana Rao
+                        CEO, Food Safety &amp; Standards Authority of India
+                    </b>
+				</p> 
+				<p> 
+					The 2019 World Bank report on the economic burden of the foodborne diseases indicated that the total 
+                    productivity loss associated with foodborne disease in low- and middle-income countries was estimated 
+                    at US$ 95.2 billion per year, and the annual cost of treating foodborne illnesses is estimated at US$ 15 billion. 
+                    Addressing the burden of foodborne diseases is a crucial task for safeguarding public health and ensuring economic 
+                    stability for a better quality of life of people around the globe.
+				</p>
+        <p class="looklikebutton"><a href="">Read More</a></p>
+            </div>
+            </div>
+			</article> 
+
+			<!-- <article> 
+				<h2>ReactJS</h2> 
+				<p class="post-meta"> 
+					Published on December 08, 2023 by GeeksforGeeks 
+				</p> 
+				<p> 
+					ReactJS is a declarative, efficient, and flexible 
+					JavaScript library for building user interfaces. 
+					It is an open-source, component-based front-end 
+					library that is responsible only for the view layer 
+					of the application. ReactJS is not a framework, it 
+					is just a library developed by Facebook to solve 
+					some problems that we were facing earlier. 
+				</p> 
+			</article>  -->
+		</main> 
+
+		<aside> 
+			<h2>Recent Posts</h2> 
+			<ol class="liststylenone"> 
+				<li><a href="https://www.hindustantimes.com/opinion/quality-standards-form-bedrock-of-food-safety-101686061939707.html" target="_blank">Quality standards form bedrock of food safety</a></li> 
+				<li><a href="https://businessworld.in/article/assuring-high-standards-with-quality-food-482290" target="_blank">Assuring High Standards With Quality Food</a></li> 
+				<li><a href="https://timesofindia.indiatimes.com/blogs/voices/strengthening-food-safety-systems-through-global-collaboration/" target="_blank">Strengthening food safety systems through global collaboration</a></li> 
+				<li><a href="https://timesofindia.indiatimes.com/blogs/voices/towards-swastha-bharat-with-healthy-and-hygienic-food-streets/" target="_blank">Towards Swastha Bharat with healthy and hygienic food streets</a></li> 
+			</ol> 
+		</aside> 
+	</div> 
+</div>
+</body> 
+
+</html>
