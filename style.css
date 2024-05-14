@@ -24,7 +24,7 @@ article {
 } 
 aside { 
     flex: 1; 
-    background-color: #c9c9c9; 
+    background-color: #ec7a3d; 
     padding: 10px; 
     height: fit-content;
 }
@@ -48,14 +48,19 @@ aside {
 }
 .liststylenone{
     padding-left: 20px;
-    color: blue;
+    color: white;
     content: justify;
 }
 .liststylenone li a{
     text-decoration: none;
+    color: white;
+}
+.h2{
+    color: white !important;
 }
 img{
     width: 300px;
+    height: 258px;
 }
 @media (min-width: 1200px){
     .container{
@@ -73,10 +78,10 @@ img{
 
 .looklikebutton{
     padding: 5px;
-    border: 1px solid darkblue;
+    border: 1px solid #ec7a3d;
     width: 20%;
     text-align: center;
-    background-color: darkblue;
+    background-color: #ec7a3d;
 }
 
 .looklikebutton a{
@@ -102,7 +107,7 @@ img{
 
 .blogflex{
     display: flex;
-    background-color: darkblue;
+    background-color: #ec7a3d;
     margin-bottom: 10px;
 }
 
